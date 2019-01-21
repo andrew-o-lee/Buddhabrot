@@ -3,12 +3,6 @@
 #include <math.h>
 #include <limits.h>
 
-/*
-	clang++ buddha.cpp -std=c++11 -o buddha
-	./buddha 2000 2000 10000000 500000 5000 500
-	./buddha 2000 2000
-*/
-
 typedef struct {
 	short red, green, blue; 
 } Color;
@@ -187,12 +181,3 @@ int main (int argc, char* argv[]) {
 		return 0;
 	}
 }
-
-
-
-
-
-
-
-
-
